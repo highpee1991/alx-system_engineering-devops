@@ -1,2 +1,2 @@
 #!/bin/bas
-find . -type -f -empty | rev | cut -d "/" 1 | rev
+find . -type -empty | rev | cut -d "/" -f 1 | rev
